@@ -1,0 +1,6 @@
+library(essurvey)
+
+ess5 <- import_country("Denmark", 5, "lakri18@student.sdu.dk")
+
+summary(ess)
+summary(ess$stfeco)
